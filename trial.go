@@ -158,7 +158,12 @@ func main() {
         }          
     }
     
-    if err := gltf.Save(doc, "LAVANYATRIPATI.gltf"); err != nil {
+    if err := gltf.Save(doc, "new_file.gltf"); err != nil {
         panic(err)
     }
 }
+//Usage 
+//go run trial.go -opt myName
+//Check for the dependencies and download
+//I am new to go and there might be silly practices used in the program :)
+
